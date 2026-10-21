@@ -1,0 +1,73 @@
+:root {
+  --font-jp: 'Shippori Mincho', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-jp-sans: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  --font-body: 'Figtree', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Platform', 'Figtree', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: #121117;
+  background-color: #f5f5f7;
+}
+
+/* Los kanjis usan siempre la tipografía japonesa del proyecto. */
+.kanji,
+[class*='kanji'] {
+  font-family: var(--font-jp);
+}
+
+code,
+kbd,
+pre {
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background-color: rgba(193, 39, 45, 0.16);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(18, 17, 23, 0.24) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(18, 17, 23, 0.22);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(18, 17, 23, 0.38);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

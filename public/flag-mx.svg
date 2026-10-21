@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Bandera de México">
+  <title>Bandera de México</title>
+  <defs>
+    <linearGradient id="eagleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B98A4E" />
+      <stop offset="1" stop-color="#6E4A22" />
+    </linearGradient>
+    <linearGradient id="cactusBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3E8E4E" />
+      <stop offset="1" stop-color="#1F5C31" />
+    </linearGradient>
+    <linearGradient id="serpentBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#57A868" />
+      <stop offset="1" stop-color="#2C6B3A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bandas verticales: verde, blanco, rojo -->
+  <rect width="233.33" height="500" fill="#006847" />
+  <rect x="233.33" width="233.34" height="500" fill="#FFFFFF" />
+  <rect x="466.67" width="233.33" height="500" fill="#CE1126" />
+
+  <!-- Escudo nacional centrado en la banda blanca -->
+  <g transform="translate(350 248)">
+    <!-- Corona de laurel (izquierda) y roble (derecha) -->
+    <g fill="none" stroke="#2C6B3A" stroke-width="5" stroke-linecap="round">
+      <path d="M-62 100 C-116 58 -120 -22 -64 -92" />
+      <path d="M62 100 C116 58 120 -22 64 -92" />
+    </g>
+    <g fill="#2C6B3A">
+      <ellipse cx="-72" cy="86" rx="17" ry="8" transform="rotate(-46 -72 86)" />
+      <ellipse cx="-92" cy="58" rx="17" ry="8" transform="rotate(-30 -92 58)" />
+      <ellipse cx="-104" cy="26" rx="17" ry="8" transform="rotate(-16 -104 26)" />
+      <ellipse cx="-107" cy="-8" rx="17" ry="8" transform="rotate(-4 -107 -8)" />
+      <ellipse cx="-100" cy="-42" rx="16" ry="8" transform="rotate(12 -100 -42)" />
+      <ellipse cx="-84" cy="-72" rx="15" ry="7" transform="rotate(28 -84 -72)" />
+      <ellipse cx="72" cy="86" rx="17" ry="8" transform="rotate(46 72 86)" />
+      <ellipse cx="92" cy="58" rx="17" ry="8" transform="rotate(30 92 58)" />
+      <ellipse cx="104" cy="26" rx="17" ry="8" transform="rotate(16 104 26)" />
+      <ellipse cx="107" cy="-8" rx="17" ry="8" transform="rotate(4 107 -8)" />
+      <ellipse cx="100" cy="-42" rx="16" ry="8" transform="rotate(-12 100 -42)" />
+      <ellipse cx="84" cy="-72" rx="15" ry="7" transform="rotate(-28 84 -72)" />
+    </g>
+    <!-- Bellotas del roble -->
+    <g fill="#8A6A2F">
+      <circle cx="-86" cy="72" r="5.5" />
+      <circle cx="-108" cy="38" r="5.5" />
+      <circle cx="-112" cy="0" r="5.5" />
+      <circle cx="86" cy="72" r="5.5" />
+      <circle cx="108" cy="38" r="5.5" />
+      <circle cx="112" cy="0" r="5.5" />
+    </g>
+
+    <!-- Nopal (cactus) sobre la roca, detrás del águila -->
+    <g fill="url(#cactusBody)">
+      <ellipse cx="-40" cy="46" rx="24" ry="19" transform="rotate(-18 -40 46)" />
+      <ellipse cx="40" cy="42" rx="24" ry="19" transform="rotate(18 40 42)" />
+      <path d="M-26 96 C-26 62 -18 46 -6 44 C6 42 16 54 16 80 L16 96 Z" />
+    </g>
+    <g stroke="#143D20" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+      <path d="M-42 38 L-42 54 M-30 34 L-30 56 M-50 42 L-50 54" />
+      <path d="M42 34 L42 52 M30 30 L30 52 M50 38 L50 52" />
+      <path d="M-10 52 L-10 92 M4 52 L4 92" />
+    </g>
+    <!-- Roca -->
+    <ellipse cx="0" cy="98" rx="44" ry="10" fill="#7A6A56" />
+    <ellipse cx="0" cy="95" rx="36" ry="7" fill="#9A8A70" />
+
+    <!-- Águila -->
+    <g>
+      <!-- cola -->
+      <path d="M-18 22 L-26 68 L-11 60 L-4 72 L4 60 L14 68 L18 22 Z" fill="url(#eagleBody)" />
+      <!-- alas -->
+      <path d="M-5 -8 C-28 -36 -60 -50 -94 -44 C-66 -28 -52 -8 -46 12 C-32 0 -17 -2 -5 -8 Z" fill="url(#eagleBody)" />
+      <path d="M5 -8 C28 -36 60 -50 94 -44 C66 -28 52 -8 46 12 C32 0 17 -2 5 -8 Z" fill="url(#eagleBody)" />
+      <!-- plumas -->
+      <g stroke="#5E3D1A" stroke-width="2" opacity="0.5" fill="none" stroke-linecap="round">
+        <path d="M-13 -10 C-32 -22 -56 -30 -80 -32" />
+        <path d="M-19 0 C-36 -8 -54 -14 -70 -16" />
+        <path d="M-25 10 C-38 6 -52 2 -64 -2" />
+        <path d="M13 -10 C32 -22 56 -30 80 -32" />
+        <path d="M19 0 C36 -8 54 -14 70 -16" />
+        <path d="M25 10 C38 6 52 2 64 -2" />
+      </g>
+      <!-- cuerpo -->
+      <ellipse cx="0" cy="0" rx="19" ry="30" fill="url(#eagleBody)" />
+      <!-- cabeza -->
+      <circle cx="-1" cy="-32" r="14" fill="url(#eagleBody)" />
+      <path d="M-10 -35 C-24 -40 -27 -29 -12 -27 Z" fill="#C8A45C" />
+      <circle cx="5" cy="-36" r="3.2" fill="#241708" />
+      <!-- garras sobre el cactus -->
+      <g fill="#C8A45C">
+        <path d="M-16 26 L-32 44 L-23 46 L-12 32 Z" />
+        <path d="M16 26 L32 44 L23 46 L12 32 Z" />
+      </g>
+    </g>
+
+    <!-- Serpiente en el pico -->
+    <path
+      d="M-16 -38 C-34 -48 -40 -30 -28 -23 C-17 -16 -8 -28 -19 -21 C-32 -13 -25 2 -12 -3"
+      fill="none"
+      stroke="url(#serpentBody)"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+    <circle cx="-12" cy="-3" r="5.5" fill="#2C6B3A" />
+
+    <!-- Listón con la leyenda -->
+    <path d="M-78 106 C-42 120 42 120 78 106 L78 124 C42 138 -42 138 -78 124 Z" fill="#C8102E" />
+    <path d="M-78 106 C-42 120 42 120 78 106 L78 113 C42 127 -42 127 -78 113 Z" fill="#E23A4E" />
+    <text
+      x="0"
+      y="126"
+      text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="11"
+      fill="#F5D76E"
+      letter-spacing="0.6"
+    >
+      PATRIA ES LIBERTAD
+    </text>
+  </g>
+</svg>
